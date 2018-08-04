@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="/static/css/profile.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+   <script src="/static/js/jquery-3.3.1.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+    <script src="/static/js/profile.js"></script>
+    <script src="/static/js/jquery-3.3.1.js"></script>
+
+
+
+</head>
+<body style="background-color: lightgrey">
+<div class="container-fluid" id="main">
+    <nav class="navbar d-flex justify-content-center " id="navi">
+        <span id="logo"></span>
+        <a class="navbar-brand " style="color: white" id="lin" ><%=user.username%></a>
+        <button id="btn1" class="remive btn btn-outline-danger">x</button>
+        <button id="btn2" class="remive btn btn-outline-warning">sub</button>
+        <input type="text" placeholder="write the text to be changed & sub" class="input remive form-control col-3 ">
+        <button id="btn10" class="remive btn btn-danger sah ">final</button>
+        <a href="/profile/redirect">logout</a>
+        <a href="/final/" >submit</a>
+
+    </nav>
+    <div class="row">
+        <div class="col-3" >
+            <div class="nav flex-column nav-pills mian" id="v-pills-tab" role="tablist" aria-orientation="vertical" >
+                <a class="nav-link active likn " id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true" >home<button id="btn3" class="remive btn btn-outline-warning float-right">sub</button><button class="remive float-right btn btn-outline-danger">x</button></a>
+                <a class="nav-link likn" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false" >Profile<button id="btn4" class="remive btn btn-outline-warning float-right">sub</button><button class="remive float-right btn btn-outline-danger">x</button></a>
+                <a class="nav-link likn" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false" >Messages <button id="btn5" class="remive btn btn-outline-warning float-right">sub</button><button class="remive float-right btn btn-outline-danger">x</button></a>
+                <a class="nav-link likn" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Settings<button id="btn6" class="remive btn btn-outline-warning float-right">sub</button><button class="remive float-right btn btn-outline-danger">x</button></a>
+                <a class="nav-link  likn" id="v-pills-home2-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true" >Home<button id="btn7" class="remive btn btn-outline-warning float-right">sub</button><button class="remive float-right btn btn-outline-danger">x</button></a>
+                <a class="nav-link likn" id="v-pills-profile2-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false" >Profile<button id="btn8" class="remive btn btn-outline-warning float-right">sub</button><button class="remive float-right btn btn-outline-danger">x</button></a>
+                <a class="nav-link likn" id="v-pills-messages2-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false" >Messages<button id="btn9" class="remive btn btn-outline-warning float-right">sub</button><button class="remive float-right btn btn-outline-danger">x</button></a>
+            </div>
+        </div>
+        <div class="col-9">
+            <div class="tab-content" id="v-pills-tabContent">
+                <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab"><div class="container"><h1>Create Your Own Profile</h1><p class="p1">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+
+                            The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p><p class="p2">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+
+                            The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p><div class="row align-items-end"><textarea class="inpi remive form-control" placeholder="write the text you want to replace in above paragraphs "></textarea><button class="remive btn btn-dark" id="btn11">sub p1</button><button class="remive btn btn-dark" id="btn12">sub p2</button></div></div></div>
+                <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab"><div class="container"><div class="row"><div class="col-8"></div><div class="col-4" style="padding: 30px;"> <input type='file' id="imgInp"  class="remive"/>
+                                <img id="blah" src="./images/photo.jpg" height="250px" alt="your image" class="img-circle" /></div></div></div> </div>
+                <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">...</div>
+                <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">...</div>
+                <div class="tab-pane fade " id="v-pills-home2" role="tabpanel" aria-labelledby="v-pills-home2-tab">...</div>
+                <div class="tab-pane fade" id="v-pills-profile2" role="tabpanel" aria-labelledby="v-pills-profile2-tab">...</div>
+                <div class="tab-pane fade" id="v-pills-messages2" role="tabpanel" aria-labelledby="v-pills-messages2-tab">...</div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

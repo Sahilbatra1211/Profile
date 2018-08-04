@@ -1,0 +1,49 @@
+
+#main{
+    padding:0;
+}
+
+#navi{
+    margin:0;
+    background-color: black;
+    padding: 0;
+
+
+}
+
+#logo{
+    background-image: url("./images/logo1.jpg");
+    width:80px;
+    height:80px;
+}
+#lin{
+    font-size: 40px;
+    font-family: "Californian FB";
+}
+
+.likn{
+    font-size: 25px;
+
+
+}
+.mian{
+
+    border:1px solid white;
+    height: 660px;
+    background-color: black;
+}
+.input{
+    margin-left:300px;
+    margin-right:130px;
+    width: 300px;
+
+}
+
+.inpi{
+    width:1100px;
+    height:150px;
+}
+
+.sah{
+    margin-right: 10px;
+}

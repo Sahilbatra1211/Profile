@@ -1,0 +1,10 @@
+#main{
+    background-image: url("/static/images/home.jpg");
+    width: 1536px;
+    height: 759px;
+}
+#hea{
+    font-family: 'Comic Sans MS';
+    font-size:50px;
+    color: aliceblue;
+}
